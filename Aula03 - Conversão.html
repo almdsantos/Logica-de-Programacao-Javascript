@@ -1,0 +1,33 @@
+<!--Lógica de Programação com Javascript
+
+Aula 03 - Conversão
+
+Problema
+Pedir para o usuário digitar dois numeros e mostrar a soma-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 03 - Conversão</title>
+</head>
+<body>
+    <script>
+        //Declaração de variáveis
+        var numero1;
+        var numero2;
+        var soma;
+
+        numero1 = prompt("Digite o primeiro numero"); //Pede o primeiro valor ao usuário
+        numero1=parseFloat(numero1); //Converte uma STRING em NÚMERO REAL
+        numero2 = prompt("Digite o segudno numero"); //Pede o segundo valor ao usuário
+        numero2=parseFloat(numero2); //Converte uma STRING em NÚMERO REAL
+
+        soma = numero1 + numero2 //Calculo de soma
+        alert("O valor da sua soma é, " + soma) //mostra resultado
+
+    </script>    
+</body>
+</html>
