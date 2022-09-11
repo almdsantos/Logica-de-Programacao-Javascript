@@ -1,0 +1,38 @@
+<!--Lógica de Programação com Javascript
+
+Exercicio das Aulas 04 e 05
+
+Problema
+Pedir para o usuário digitar um numero
+converter em numero inteiro
+pedir para o usuario digitar outro numero
+converter em numero inteiro
+
+mostrar num alert o seguinte texto
+o resto da divisão de (n1) por (n2) é: (resultado);
+
+mostrar num alert o seguinte texto
+o numero (n1) elevado por (n2) é: (resultado);
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lógica de Programação com Javascript</title>
+</head>
+<body>
+    <script>
+        numero1 = prompt("Favor informar o primeiro numero"); //Pedir para o usuário digitar um numero
+        numero1 = parseFloat(numero1); //converter em numero inteiro 
+        numero2 = prompt("Favor informar o segundo numero"); //pedir para o usuario digitar outro numero
+        numero2 = parseFloat(numero2); //converter em numero inteiro
+
+        alert("O resto da divisão do primeiro pelo segundo número é: " + (numero1 % numero2));
+        
+        alert("O numero " + numero1 + " elevado pelo número " + numero2 + " é: " + (numero1 ** numero2) );
+    </script>    
+</body>
+</html>

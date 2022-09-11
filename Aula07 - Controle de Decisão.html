@@ -1,0 +1,35 @@
+<!--Lógica de Programação com Javascript
+
+Aula 07 - Controle de Decisão
+
+Problema
+Pedir para o usuário digitar dois números e mostrar uma mensagem informando se foi aprovado ou não.
+A nota de corte é 5.
+
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lógica de Programação com Javascript</title>
+</head>
+<body>
+    <script>
+        var n1 = parseFloat(prompt("Favor informar a primeira nota"));
+        var n2 = parseFloat(prompt("Favor informar a segunda nota"));
+        var media = (n1 + n2) / 2;
+
+        if (media > 5 && media <= 10) {
+            alert("Você está aprovado");
+        } else if (media < 5) {
+            alert("Você está reprovado");
+        } else {
+            alert("Digite as notas corretas");
+        }
+    </script>
+    
+</body>
+</html>

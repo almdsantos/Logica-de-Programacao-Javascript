@@ -1,0 +1,41 @@
+<!--Lógica de Programação com Javascript
+
+Aula 04 - Operadores Aritméticos
+
+Problema
+Pedir para o usuário digitar dois números e mostrar a média.
+
+Operadores Aritméticos
++ Adição,          - Subtração,
+* Multiplicação,   / Divisão,
+% Módulo,          ** Expoenciação,
+++ Incremento,     -- Decremento,
+
+
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lógica de Programação com Javascript</title>
+</head>
+<body>
+    <script>
+        var numero1;
+        var numero2;
+        var media;
+
+        numero1 = prompt("Favor informar o primeiro número");
+        numero1 = parseFloat(numero1);
+        numero2 = prompt("Favor informar o segundo número");
+        numero2 = parseFloat(numero2);
+
+        media = (numero1+numero2) / 2;
+
+        alert("A média dos dois números é: " + media);
+    </script>    
+</body>
+</html>

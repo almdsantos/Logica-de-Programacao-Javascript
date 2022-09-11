@@ -1,0 +1,39 @@
+<!--Lógica de Programação com Javascript
+
+Aula 06 - Operadores de Comparação
+
+Problema
+Pedir para o usuário digitar dois numeros e mostrar um boolean indicando se a média for maior que 5
+
+Tipos de Operadores de Comparação
+
+== Igualdade (valor),             != Diferente (valor),
+=== Igualdade (valor e tipo),     !== Diferente (valor e tipo)
+> Maior,                          < Menor,
+>= Maior ou Igual,                <= Menor ou Igual,
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lógica de Programação com Javascript</title>
+</head>
+<body>
+    <script>
+        var n1 = parseFloat(prompt("Favor informar o primeiro numero"));
+        var n2 = parseFloat(prompt("Favor informar o segundo numero"));
+
+        var media = (n1 + n2) / 2
+
+        if (media > 5)
+            alert("A média é maior que 5");
+        else if (media < 5)
+            alert("A média é menor que 5");
+        else
+            alert("A média é igual a 5");
+    </script>
+</body>
+</html>

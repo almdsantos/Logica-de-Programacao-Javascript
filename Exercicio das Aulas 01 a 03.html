@@ -1,0 +1,39 @@
+<!--Lógica de Programação com Javascript
+
+Exercicio das Aulas 01 a 03
+
+Problema
+Pedir para o usuário digitar um numero
+converter em numero inteiro
+pedir para o usuario digitar outro numero
+converter em numero inteiro
+
+mostrar a subtração concatenando com o texto "a subtração é: ...."
+mostrar a multiplicação concatenando com o texto "a multiplicação é: ...."
+mostrar a divisão concatenando com o texto "a divisão é: ...."
+mostrar a soma concatenando com o texto "a soma é: ...."
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lógica de Programação com Javascript</title>
+</head>
+<body>
+    <script>
+        numero1 = prompt("Favor informar o primeiro numero"); //Pedir para o usuário digitar um numero
+        numero1 = parseInt(numero1); //converter em numero inteiro 
+        numero2 = prompt("Favor informar o segundo numero"); //pedir para o usuario digitar outro numero
+        numero2 = parseInt(numero2); //converter em numero inteiro
+
+        alert("O resultado da subtração é: " + (numero1-numero2)); //mostrar a subtração concatenando com o texto "a subtração é: ...."
+        alert("O resultado da multiplicação é: " + (numero1*numero2)); //mostrar a multiplicação concatenando com o texto "a multiplicação é: ...."
+        alert("O resultado da divisão é: " + (numero1/numero2)); //mostrar a divisão concatenando com o texto "a divisão é: ...."
+        alert("O resultado da soma é: " + (numero1+numero2)); //mostrar a soma concatenando com o texto "a soma é: ...."
+
+    </script>    
+</body>
+</html>
